@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FBFBFB;
+}
+
+/* Navbar Style */
+.navbar{
+  background-color:#f9a8c7;
+}
+
+/* Container Main Style */
+
+.container-main {
+  margin: 0 auto;
+  max-width: 1000px;
+  min-height: 500px;
+  text-align: center;
+  padding: 20px; 
+  padding-bottom: 10vh;
+}
+
+/* Container Information Style */
+
+.card-information{
+  margin-bottom: 15px;
+}
+
+.card-title-information{
+  font-family: "Henny Penny", system-ui;
+  font-size: 17px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  color: #ec407a;
+}
+
+.card-text-information{
+  font-family: "Bellefair", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.card-img-information{
+  max-width: 30%; 
+  height: 100%;  
+}
+
+/* Container Calculator Style */
+
+.card-calculator{
+  margin-bottom: 15px;
+}
+
+.card-title-calculator{
+  font-family: "Henny Penny", system-ui;
+  font-size: 17px;
+  font-weight: 600;
+  font-style: normal;
+  text-align: center;
+  color: #ec407a;
+}
+
+.card-col-calculator{
+  margin-bottom: 15px;
+}
+
+/* Container Results Style */
+
+.alert-container-result {
+  margin-top: 20px;
+  display: none;
+  background-color: #FCE4EC;
+  border-radius: 25px;
+}
+
+.alert-title-result{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color: #ec407a;
+}
+
+.alert-text-result{
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  color: #262626;
+}
+
+.alert-strong-result{
+  color: #dc265a;
+  font-weight: 900;
+}
+
+/* Footer Style */
+
+.footer{
+  background-color:#f9a8c7;
+}
+
+.copyright{
+  color: #ec407a;
+  font-family: cursive;
+  text-align: center;
+}
+
+.copyright-link{
+  color: #dc265a;
+  font-weight: 700;
+  text-align: center;
+}
